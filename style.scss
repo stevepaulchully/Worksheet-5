@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", serif;
+
+}
+.Image-schedule{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 40px;
+    justify-content: center;
+    
+    
+
+    .Img{
+        max-width: 380px;
+
+
+    }
+    .Schedule-content{
+        display: flex;
+        flex-direction: column;
+
+        .Schedule-heading{
+            max-width: 520px;
+            font-weight: bold;
+        }
+        .Countdown{
+            display: flex;
+            max-width: 288px;
+            justify-content: space-between;
+            .Timer{
+                height: 61px;
+                width: 62px;
+                background-color: white;
+                text-align: center;
+                border: rgba(128, 128, 128, 0.288) solid 1px;
+                border-radius: 5px;
+                span{
+                    display: block;
+                    width: 60px;
+                    height: 39px;
+                    background-color: #eff1f5;
+                    font-size: 24px ;
+                    font-weight: 700;
+                    text-align: center;
+                }
+            }
+
+        }
+        .Schedule-details{
+            display: inline;
+            
+            
+        }
+        .Description{
+            font-size: 15px;
+            max-width: 518px;
+        }
+        
+    }
+}
+
