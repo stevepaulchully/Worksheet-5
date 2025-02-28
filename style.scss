@@ -6,8 +6,11 @@ body{
 .Image-schedule{
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     .Image{
 =======
+=======
+>>>>>>> master
     flex-direction: row;
     padding: 40px;
     gap: 40px;
@@ -18,12 +21,16 @@ body{
     .Img{
         max-width: 380px;
 
+<<<<<<< HEAD
 >>>>>>> f2d3e47 (UI Almost finished)
+=======
+>>>>>>> master
 
     }
     .Schedule-content{
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
 <<<<<<< HEAD
         .Schedule-heading{
             max-width: 518px;
@@ -32,6 +39,11 @@ body{
         .Schedule-heading{
             max-width: 520px;
 >>>>>>> f2d3e47 (UI Almost finished)
+=======
+
+        .Schedule-heading{
+            max-width: 520px;
+>>>>>>> master
             font-weight: bold;
         }
         .Countdown{
@@ -43,11 +55,17 @@ body{
                 width: 62px;
                 background-color: white;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 text-align: center;
                 border: rgba(128, 128, 128, 0.288) solid 1px;
                 border-radius: 5px;
 >>>>>>> f2d3e47 (UI Almost finished)
+=======
+                text-align: center;
+                border: rgba(128, 128, 128, 0.288) solid 1px;
+                border-radius: 5px;
+>>>>>>> master
                 span{
                     display: block;
                     width: 60px;
@@ -56,14 +74,19 @@ body{
                     font-size: 24px ;
                     font-weight: 700;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     text-align: center;
 >>>>>>> f2d3e47 (UI Almost finished)
+=======
+                    text-align: center;
+>>>>>>> master
                 }
             }
 
         }
         .Schedule-details{
+<<<<<<< HEAD
 <<<<<<< HEAD
             font-size: 18px;
             font-weight: 700;
@@ -71,6 +94,8 @@ body{
         .Description{
             font-size: 15px;
 =======
+=======
+>>>>>>> master
             display: inline;
             
             
@@ -78,7 +103,10 @@ body{
         .Description{
             font-size: 15px;
             max-width: 518px;
+<<<<<<< HEAD
 >>>>>>> f2d3e47 (UI Almost finished)
+=======
+>>>>>>> master
         }
         
     }
