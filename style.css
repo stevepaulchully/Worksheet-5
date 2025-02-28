@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", serif;
+}
+
+.Image-schedule {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  gap: 40px;
+  justify-content: center;
+}
+.Image-schedule .Img {
+  max-width: 380px;
+}
+.Image-schedule .Schedule-content {
+  display: flex;
+  flex-direction: column;
+}
+.Image-schedule .Schedule-content .Schedule-heading {
+  max-width: 520px;
+  font-weight: bold;
+}
+.Image-schedule .Schedule-content .Countdown {
+  display: flex;
+  max-width: 288px;
+  justify-content: space-between;
+}
+.Image-schedule .Schedule-content .Countdown .Timer {
+  height: 61px;
+  width: 62px;
+  background-color: white;
+  text-align: center;
+  border: rgba(128, 128, 128, 0.288) solid 1px;
+  border-radius: 5px;
+}
+.Image-schedule .Schedule-content .Countdown .Timer span {
+  display: block;
+  width: 60px;
+  height: 39px;
+  background-color: #eff1f5;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.Image-schedule .Schedule-content .Schedule-details {
+  display: inline;
+}
+.Image-schedule .Schedule-content .Description {
+  font-size: 15px;
+  max-width: 518px;
+}/*# sourceMappingURL=style.css.map */

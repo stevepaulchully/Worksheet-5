@@ -5,33 +5,14 @@ body{
 }
 .Image-schedule{
     display: flex;
-<<<<<<< HEAD
     .Image{
-=======
-    flex-direction: row;
-    padding: 40px;
-    gap: 40px;
-    justify-content: center;
-    
-    
-
-    .Img{
-        max-width: 380px;
-
->>>>>>> f2d3e47 (UI Almost finished)
 
     }
     .Schedule-content{
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
         .Schedule-heading{
             max-width: 518px;
-=======
-
-        .Schedule-heading{
-            max-width: 520px;
->>>>>>> f2d3e47 (UI Almost finished)
             font-weight: bold;
         }
         .Countdown{
@@ -42,12 +23,6 @@ body{
                 height: 61px;
                 width: 62px;
                 background-color: white;
-<<<<<<< HEAD
-=======
-                text-align: center;
-                border: rgba(128, 128, 128, 0.288) solid 1px;
-                border-radius: 5px;
->>>>>>> f2d3e47 (UI Almost finished)
                 span{
                     display: block;
                     width: 60px;
@@ -55,32 +30,17 @@ body{
                     background-color: #eff1f5;
                     font-size: 24px ;
                     font-weight: 700;
-<<<<<<< HEAD
-=======
-                    text-align: center;
->>>>>>> f2d3e47 (UI Almost finished)
                 }
             }
 
         }
         .Schedule-details{
-<<<<<<< HEAD
             font-size: 18px;
             font-weight: 700;
         }
         .Description{
             font-size: 15px;
-=======
-            display: inline;
-            
-            
-        }
-        .Description{
-            font-size: 15px;
-            max-width: 518px;
->>>>>>> f2d3e47 (UI Almost finished)
         }
         
     }
 }
-
