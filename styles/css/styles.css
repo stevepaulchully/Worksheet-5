@@ -295,16 +295,103 @@ header ul a {
 }
 .footer .Subscribe-text {
   margin-left: 100px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 64px;
   line-height: 60px;
   letter-spacing: 0%;
   max-width: 412px;
   max-height: 120px;
+  color: #FFFFFF;
 }
 .footer .mailbox {
   display: flex;
   width: 602px;
   height: 91px;
+  justify-content: space-between;
+  margin-left: 100px;
+  border: 1px solid #626262;
+}
+.footer .mailbox .mail {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 49px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+.footer .mailbox .subscribe-button {
+  background-color: #F13E5D;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40.85px;
+  letter-spacing: 0%;
+  width: 285px;
+  height: 70px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.footer .footernav {
+  position: relative;
+}
+.footer .footernav ul {
+  display: flex;
+  flex-direction: column;
+  width: 164px;
+  height: 200px;
+  justify-content: space-evenly;
+  margin-left: 61px;
+  margin-top: 29px;
+}
+.footer .footernav li {
+  list-style-type: none;
+}
+.footer .footernav li a {
+  list-style-type: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #8DA1A1;
+  text-decoration-thickness: Auto;
+}
+.footer .line {
+  width: 1296px;
+  margin-top: 40px;
+  color: #194E50;
+  border-width: 1px;
+}
+.footer .neoito {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #8DA1A1;
+  align-self: center;
+  margin-top: 40px;
+}
+.footer .images {
+  display: inline-block;
+}
+.footer .images .reddit {
+  position: relative;
+  top: -437px;
+  right: -1420px;
+}
+.footer .images .twitter {
+  position: relative;
+  top: -709px;
+  right: -1116px;
+}
+.footer .images .linkedin {
+  position: relative;
+  top: -637px;
+  right: -388px;
 }/*# sourceMappingURL=styles.css.map */
