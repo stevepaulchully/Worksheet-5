@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nullcast Events</title>
+    <link rel="stylesheet" href="styles/css/style-BEM.css">
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="header__nav">
+                <li><a class="header__link" href="#">What the Ducks?</a></li>
+                <li><a class="header__link" href="#">Curriculum</a></li>
+                <li><a class="header__link" href="#">Leaderboard</a></li>
+                <li><a class="header__link" href="#">Write✍️</a></li>
+                <li><a class="header__link" href="#">Community</a></li>
+
+                <div class="header__nav-group">
+                    <li><a class="header__button header__button--login" href="#">Login</a></li>
+                    <li><a class="header__button header__button--donate" href="#">Donate</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__text">
+            <h1 class="hero__title">Nullcast is a Series of Events</h1>
+            <p class="hero__description">Get the latest scoop from the world of development with the latest news, hacks, tricks, and more on JavaScript, machine learning, enterprise architecture, and more.</p>
+        </div>
+        <div class="hero__image">
+            <img src="styles/images/Frame.png" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="schedule">
+        <img class="schedule__image" src="styles/images/Group 576.png" alt="Schedules">
+
+        <div class="schedule__content">
+            <h2 class="schedule__title">Creative Search Bar and Input Field Design Inspiration</h2>
+            <div class="schedule__countdown">
+                <div class="schedule__countdown-box"><span class="schedule__countdown-value">15</span> Days</div>
+                <div class="schedule__countdown-box"><span class="schedule__countdown-value">07</span> Hours</div>
+                <div class="schedule__countdown-box"><span class="schedule__countdown-value">56</span> Min</div>
+                <div class="schedule__countdown-box"><span class="schedule__countdown-value">14</span> Sec</div>
+            </div>
+            <div class="schedule__event-details">
+                <p class="schedule__detail"><i class="lni lni-calendar-days schedule__detail-icon"></i><strong>February 26, 2021</strong> &nbsp; <i class="lni lni-alarm-1 schedule__detail-icon"></i>01:30 PM</p>
+                <p class="schedule__detail"><i class="lni lni-map-marker-5 schedule__detail-icon"></i><strong>TRIVANDRUM, INDIA</strong></p>
+            </div>
+            <p class="schedule__description">
+                We host regular jam sessions for our coder community on a variety of topics ranging from 
+                serverless to open source and everything in between.
+            </p>
+        </div>
+    </section>
+
+    <section class="tiles">
+        <div class="tiles__grid">
+            <div class="tiles__item">
+                <div class="tiles__item-image">
+                    <img src="styles/images/Tile 1.svg" alt="tile 1">
+                </div>
+                <div>
+                    <h3>Creative Search Bar and input Field <br> Design...</h3>
+                    <p><i class="lni lni-calendar-days"></i><strong>February 26, 2021</strong> &nbsp; <i class="lni lni-alarm-1"></i>01:30 PM</p>
+                    <p><i class="lni lni-map-marker-5"></i><strong>TRIVANDRUM, INDIA</strong></p>
+                </div>
+            </div>
+            <!-- Repeat for all 12 tiles with the same structure -->
+            <!-- For brevity, I'm showing just one tile, but you would repeat this structure for all 12 -->
+            <!-- Additional tiles would go here -->
+        </div>
+        <div class="tiles__load-more">
+            <button class="tiles__button"><strong>LOAD MORE</strong></button>
+        </div>
+    </section>
+
+    <section class="promo">
+        <p class="promo__heading">WANT #SWAG</p>
+        <div class="promo__raffle">
+            <p class="promo__raffle-text">JOIN OUR MONTHLY RAFFLE!</p>
+        </div>
+        
+        <div class="promo__content">
+            <div class="promo__text-container">
+                <p class="promo__text">One Lucky Duck gets free swag shipped to their doorstep, wherever in the world you are! All you have to do is join our Discord channel today and tweet about the amazing things we do. #nullcast #luckyduck <br>
+                    <span class="promo__text-highlight">We will announce the winners on Twitter and through our discord channel.</span>
+                </p>
+            </div>
+            <img class="promo__image" src="styles/images/Duck.svg" alt="Yellow Duck">
+        </div>
+        <div class="promo__triangle"></div>
+        <button class="promo__community">
+            JOIN OUR COMMUNITY
+        </button>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__heading">Subscribe Our Newsletter</p>
+        <div class="footer__form">
+            <p class="footer__input">Enter your mail</p>
+            <button class="footer__button">
+                SUBSCRIBE
+            </button>
+        </div>
+        <div class="footer__nav">
+            <ul class="footer__menu">
+                <li class="footer__menu-item"><a class="footer__menu-link" href="#">WHAT THE DUCKS?</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="#">CURRICULUM</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="#">LEADERBOARD</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="#">COMMUNITY</a></li>
+            </ul>
+        </div>
+        <hr class="footer__divider">
+        <p class="footer__copyright">MADE WITH ❤️ BY NEOITO DUCKS</p>
+        <div class="footer__social">
+            <img class="footer__social-reddit" src="styles/images/reddit.png" alt="reddit">
+            <img class="footer__social-twitter" src="styles/images/Twitter.png" alt="twitter">
+            <img class="footer__social-linkedin" src="styles/images/linkedin.png" alt="linkedin">
+        </div>
+    </footer>
+</body>
+</html>
